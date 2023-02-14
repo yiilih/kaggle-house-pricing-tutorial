@@ -14,7 +14,7 @@ https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/
 ### Download data
 Save data to `~/proj/kaggle-house-pricing/data`
 
-'''`
+```
 mkdir -p ~/proj/kaggle-house-pricing/data
 
 # Download with Kaggle API
@@ -23,21 +23,21 @@ kaggle competitions download -c house-prices-advanced-regression-techniques -p ~
 cd ~/projs
 unzip house-prices-advanced-regression-techniques.zip -d kaggle-house-pricing/data
 rm house-prices-advanced-regression-techniques.zip
-'''
+```
 
 ### Virtual environment and install packages
 
-'''
+```
 python3 -m venv venv
 source venv/bin/activate
 pip install pandas matplotlib seaborn numpy scipy
 pip install -U scikit-learn
-'''
+```
 
 ### Start VSCode
 
-'''
+```
 code .
 
 # Install extensions for Python
-'''
+```
